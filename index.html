@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Po4lio</title>
+    <link rel="stylesheet" href="styling.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js"></script>
+  </head>
+  <body>
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <nav
+            id="navbar"
+            style="
+              width: 100%;
+              display: flex;
+              align-items: flex-start;
+              justify-content: space-between;
+              padding: 2%;
+              position: fixed;
+              top: 0;
+              left: 0;
+              z-index: 20;
+            "
+          >
+            <div style="display: flex; align-items: start; gap: 10px">
+              <h1
+                style="
+                  display: flex;
+                  align-items: flex-start;
+                  font-size: 14rem;
+                  color: white;
+                "
+                id="logo"
+              >
+                Green Stack
+              </h1>
+              <h1 id="letter-R" style="font-size: 5rem;
+              margin-top: 35px;
+              color: white;">®</h1>
+            </div>
+            <ul
+              id="menu"
+              style="
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                align-items: center;
+                gap: 40px;
+                font-size: 2rem;
+          margin-top: 40px;
+          color: white;
+              "
+            >
+              <li>Menu</li>
+              <li>Book a demo</li>
+            </ul>
+          </nav>
+            <div class="one container">
+                <section
+                  style="width: 100vw; height: 100vh; position: relative; z-index: 10"
+                >
+                  <div
+                    style="width: 100vw; height: 100vh; position: relative; z-index: 10"
+                  >
+                    <h3
+                      style="
+                        max-width: 300px;
+                        font-style: normal;
+                        font-size: 24px;
+                        font-weight: 400;
+                        position: absolute;
+                        top: 15%;
+                        right: 5%;
+                        color: white;
+                      "
+                    >
+                      Increase the efficiency of your farming business by 1000%
+                    </h3>
+                    <h3
+                      style="
+                        max-width: 600px;
+                        font-style: normal;
+                        font-size: 48px;
+                        font-weight: 500;
+                        position: absolute;
+                        bottom: 5%;
+                        left: 5%;
+                        color: white;
+                      "
+                    >
+                      Is your smart portable farm
+                    </h3>
+                  </div>
+                  <div>
+                    <div class="overlay"></div>
+                    <video preload="auto" playsinline autoplay loop muted>
+                      <source
+                        media="(min-width: 992px)"
+                        src="https://cdn.prod.website-files.com/66e2b24abe74b03ad57ad2fb%2F66e2b7106304a926c025bd4f_farm-bg-transcode.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                  </div>
+                </section>
+              </div>
+              <div class="one second">
+                <section
+                  style="
+                    width: 100vw;
+                    height: 100vh;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  "
+                  class="second"
+                >
+                  <div
+                    style="
+                      width: 50%;
+                      height: 100%;
+                      background-color: white;
+                      padding: 8% 1%;
+                    "
+                  >
+                    <div
+                      style="
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div
+                        style="
+                          display: flex;
+                          justify-content: space-between;
+                          align-items: center;
+                        "
+                      >
+                        <p style="font-size: 22px">About</p>
+                        <p style="font-size: 22px">1-1</p>
+                      </div>
+                      <div
+                        style="
+                          display: flex;
+                          justify-content: space-between;
+                          align-items: center;
+                        "
+                      >
+                        <div>
+                          <h2 style="font-size: 7rem">471 k+</h2>
+                          <p style="font-size: 24px">Farms created</p>
+                        </div>
+                        <div>
+                          <h2 style="font-size: 7rem">471 k+</h2>
+                          <p style="font-size: 24px">Farms created</p>
+                        </div>
+                      </div>
+                      <div>
+                        <p style="font-size: 3rem; max-width: 900px">
+                          Green Stack is a company that develops a smart solution for
+                          farmers in the form of technological boxes for growing plants in
+                          conditions of limited space
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 50%; height: 100%;">
+                    <div class="item" style="padding: 10%; display: flex; flex-direction: column; justify-content: center; align-items: center; transform: translateY(100%); opacity: 0;">
+                        <div>
+                            <img style="border-radius: 22px;" width="80%" src="./images/p1.avif" alt="photos of plants">
+                            <p style="margin-top: 10px; font-size: 22px;">01 Easy communications</p>
+                        </div>
+                    </div>
+                    <div class="item" style="padding: 10%; display: flex; flex-direction: column; justify-content: center; align-items: center; transform: translateY(100%); opacity: 0;">
+                       <div>
+                        <img style="border-radius: 22px;" width="80%" src="./images/p2.avif" alt="photos of plants">
+                        <p style="margin-top: 10px; font-size: 22px;">02 Great opportunities</p>
+                       </div>
+                    </div>
+                    <div class="item" style="padding: 10%; display: flex; flex-direction: column; justify-content: center; align-items: center; transform: translateY(100%); opacity: 0;">
+                       <div>
+                        <img style="border-radius: 22px;" width="80%" src="./images/p3.avif" alt="photos of plants">
+                        <p style="margin-top: 10px; font-size: 22px;">03 Simple automation</p>
+                       </div>
+                    </div>                  
+                  </div>
+                </section>
+              </div>
+              <div class="one">
+                <p>Third</p>
+              </div>
+        </div>
+    </div>
+    </div>
+ 
+   
+  </body>
+  <script>
+    let tl = gsap
+      .timeline({
+        // yes, we can add it to an entire timeline!
+        scrollTrigger: {
+          trigger: ".container",
+          //   markers: {
+          //     startColor: "red",
+          //     endColor: "green",
+          //     fontSize: "18px",
+          //     fontWeight: "bold",
+          //     indent: 20,
+          //   },
+          start: "top", // when the top of the trigger hits the top of the viewport
+          end: "+=150", // end after scrolling 500px beyond the start
+          scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+
+          //   snap: {
+          //     snapTo: 1 / 3, // snap to the closest section (default: 1)
+          //     duration: { min: 0.2, max: 0.5 }, // the snap animation is not instant
+          //     delay: 0.2, // wait 0.2 seconds before starting the snap animation
+          //     ease: "power1.inOut", // the ease of the snap animation ("power1.inOut" is default)
+          //   },
+        },
+      })
+      .fromTo(
+        "#navbar",
+        {
+          postion: "fixed",
+          top: 0,
+          left: 0,
+          //   backgroundColor: "black",
+          duration: 1,
+          ease: "power1.inOut",
+        },
+        {
+          postion: "sticky",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "fit-content",
+          //   backgroundColor: "white",
+          duration: 1,
+          ease: "power1.inOut",
+        },
+        0.2
+      )
+      .to(
+        "#logo",
+        {
+          fontSize: "2rem",
+          color: "white",
+          duration: 15,
+          ease: "slow(0.1,0.1,false)",
+        },
+        "<+=1" // start this tween at the same time as the previous one
+      )
+      .to(
+        "#letter-R",
+        {
+          fontSize: "1.3rem",
+          color: "white",
+          duration: 15,
+          marginTop: "0px",
+          ease: "slow(0.1,0.1,false)",
+        },
+        "<"
+      ) // start this tween at the same time as the previous one
+      .to(
+        "#menu",
+        // {
+        //   fontSize: "2rem",
+        //   marginTop: "40px",
+        //   color: "white",
+        //   duration: 1,
+        //   ease: "power1.inOut",
+        // },
+        {
+          fontSize: "1.3rem",
+          marginTop: "0px",
+          color: "white",
+          duration: 15,
+          ease: "slow(0.1,0.1,false)",
+        },
+        "<" // start this tween at the same time as the previous one
+      );
+
+    let tl2 = gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".second",
+        //   markers: {
+        //     startColor: "red",
+        //     endColor: "green",
+        //     fontSize: "18px",
+        //     fontWeight: "bold",
+        //     indent: 20,
+        //   },
+          pin: true, // pin the trigger element while active
+          start: "top", // when the top of the trigger hits the top of the viewport
+          end: "+=200%", // end after scrolling 500px beyond the start
+          scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+        },
+      })
+
+      tl2.to("#navbar", {
+        background: "darkcyan",
+        ease: "slow(0.1,0.1,false)",
+      })
+
+    // Animate item 1
+    tl2.to(".item:nth-child(1)", {
+    y: "0%",
+    opacity: 1,
+    duration: 1,
+    ease: "power2.out"
+    })
+    .to(".item:nth-child(1)", {
+    y: "-100%",
+    opacity: 0,
+    display: "none",
+    duration: 1,
+    ease: "power2.in"
+    })
+
+    // Animate item 2
+    .to(".item:nth-child(2)", {
+    y: "0%",
+    opacity: 1,
+    duration: 1,
+    ease: "power2.out"
+    })
+    .to(".item:nth-child(2)", {
+    y: "-100%",
+    opacity: 0,
+    display: "none",
+    duration: 1,
+    ease: "power2.in"
+    })
+
+    // Animate item 3
+    .to(".item:nth-child(3)", {
+    y: "0%",
+    opacity: 1,
+    duration: 1,
+    ease: "power2.out"
+    })
+    // .to(".item:nth-child(3)", {
+    // y: "-100%",
+    // opacity: 0,
+    // duration: 1,
+    // ease: "power2.in"
+    // });
+
+  </script>
+</html>
